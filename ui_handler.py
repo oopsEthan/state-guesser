@@ -16,13 +16,24 @@ class UI(Turtle):
         self.guessed_states = []
 
         self.state_information = read_csv("usa_states_data.csv")
-        self.hideturtle()
+        self.pen(shown=False, pencolor="red")
+    
+    def input_state(self) -> None:
+        while len(self.guessed_states) < 50:
+            guess = self.game_window.textinput("Guess a State.", f"{len(self.guessed_states)}/50 States guessed!")
+            if guess not in self.guessed_states and guess != None:
+                 guess = guess.title().replace(" ", "_")
+                 print(f"Guess is: {guess}")
+                 self.draw_state(guess)
 
     def draw_state(self, state_name) -> None:
-        if state_name not in self.guessed_states:
             state_id = self.state_information[self.state_information.state == state_name]
-            state_x = int(state_id.state_x)
-            state_y = int(state_id.state_y)
+            if state_id.empty:
+                 return
+            state_x = state_id.state_x.values[0]
+            state_y = state_id.state_y.values[0]
 
             self.teleport(state_x, state_y)
-            self.write(f"{state_name}", align="center", font=("Courier", 10, "normal"))
+            self.guessed_states.append(state_name)
+            state_name = state_name.replace("_"," ")
+            self.write(f"{state_name}", align="center", font=("Courier", 12, "normal"))

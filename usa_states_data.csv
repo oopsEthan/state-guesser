@@ -1,51 +1,51 @@
-,state,state_x,state_y
-0,Alabama,154,-70
-1,Alaska,-211,-178
-2,Arizona,-242,-29
-3,Arkansas,59,-43
-4,California,-353,34
-5,Colorado,-134,45
-6,Connecticut,370,113
-7,Delaware,341,68
-8,Florida,252,-150
-9,Georgia,212,-72
-10,Hawaii,-394,-167
-11,Idaho,-248,151
-12,Illinois,103,65
-13,Indiana,149,61
-14,Iowa,41,98
-15,Kansas,-30,32
-16,Kentucky,167,19
-17,Louisiana,73,-126
-18,Maine,364,217
-19,Maryland,341,52
-20,Massachusetts,383,152
-21,Michigan,0,0
-22,Minnesota,23,173
-23,Mississippi,106,-78
-24,Missouri,59,25
-25,Montana,-174,208
-26,Nebraska,-47,89
-27,Nevada,-300,79
-28,New Hampshire,381,167
-29,New Jersey,335,89
-30,New Mexico,-155,-38
-31,New York,291,143
-32,North Carolina,268,-5
-33,North Dakota,-54,206
-34,Ohio,198,76
-35,Oklahoma,-14,-26
-36,Oregon,-336,175
-37,Pennsylvania,265,103
-38,Rhode Island,380,129
-39,South Carolina,249,-45
-40,South Dakota,-55,147
-41,Tennessee,153,-14
-42,Texas,-42,-107
-43,Utah,-226,59
-44,Vermont,307,213
-45,Virginia,267,34
-46,Washington,-311,239
-47,West Virginia,231,49
-48,Wisconsin,86,154
-49,Wyoming,-159,125
+state,state_x,state_y
+Alabama,154,-70
+Alaska,-211,-178
+Arizona,-242,-29
+Arkansas,59,-43
+California,-353,34
+Colorado,-134,45
+Connecticut,370,113
+Delaware,341,68
+Florida,252,-150
+Georgia,212,-72
+Hawaii,-394,-167
+Idaho,-248,151
+Illinois,103,65
+Indiana,149,61
+Iowa,41,98
+Kansas,-30,32
+Kentucky,167,19
+Louisiana,73,-126
+Maine,364,217
+Maryland,341,52
+Massachusetts,383,152
+Michigan,170,120
+Minnesota,23,173
+Mississippi,106,-78
+Missouri,59,25
+Montana,-174,208
+Nebraska,-47,89
+Nevada,-300,79
+New_Hampshire,381,167
+New_Jersey,335,89
+New_Mexico,-155,-38
+New_York,291,143
+North_Carolina,268,-5
+North_Dakota,-54,206
+Ohio,198,76
+Oklahoma,-14,-26
+Oregon,-336,175
+Pennsylvania,265,103
+Rhode_Island,380,129
+South_Carolina,249,-45
+South_Dakota,-55,147
+Tennessee,153,-14
+Texas,-42,-107
+Utah,-226,59
+Vermont,307,213
+Virginia,267,34
+Washington,-311,239
+West_Virginia,231,49
+Wisconsin,86,154
+Wyoming,-159,125
